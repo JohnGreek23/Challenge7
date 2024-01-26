@@ -34,11 +34,11 @@ The Work Day Scheduler app uses local storage to save your events. This means th
 
 ## App Preview
 
+Here is a screenshot of the Work Day Scheduler app in action:
+
 ![Work Day Scheduler App](/pictures/screenshot.jpg)
 
 [Click here for a full-size image](/pictures/screenshot.jpg)
-
-Here is a screenshot of the Work Day Scheduler app in action:
 
 ## Technologies Used
 
