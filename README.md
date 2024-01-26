@@ -50,7 +50,7 @@ Here is a screenshot of the Work Day Scheduler app in action:
 
 ## Author
 
-This Work Day Scheduler app was created by [Your Name].
+This Work Day Scheduler app was created by Ioannis Mikroulis.
 
 ## License
 
