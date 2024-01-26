@@ -48,9 +48,6 @@ Here is a screenshot of the Work Day Scheduler app in action:
 - [jQuery](https://jquery.com/)
 - [Day.js](https://day.js.org/)
 
-## Author
-
-This Work Day Scheduler app was created by Ioannis Mikroulis.
 
 ## License
 
