@@ -22,17 +22,22 @@ $(document).ready(function() {
       description.attr("contenteditable", true).focus();
     });
   
-    // Save events in local storage
+    // Save events in local storage when the save button is clicked
     $(".saveBtn").on("click", function() {
-      var description = $(this).siblings(".description").text();
+      var description = $(this).siblings(".description").text().trim(); // Trim to remove leading/trailing whitespace
       var hour = $(this).siblings(".hour").text();
-      localStorage.setItem(hour, description);
+      
+      // Save to local storage if description is not empty
+      if (description) {
+        localStorage.setItem(hour, description);
+      }
     });
   
     // Retrieve and display saved tasks or notes
     $(".time-block").each(function() {
       var hour = $(this).find(".hour").text();
       var savedDescription = localStorage.getItem(hour);
+      
       if (savedDescription) {
         $(this).find(".description").text(savedDescription);
       }
